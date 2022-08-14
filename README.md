@@ -1,3 +1,5 @@
+[![Build](https://github.com/sebi-vscode2/Fast-Tools/actions/workflows/node.js.yml/badge.svg)](https://github.com/sebi-vscode2/Fast-Tools/actions/workflows/node.js.yml)
+
 # Introduction
 Fast-Tools is a Toolkit for EVERYTHING that can make boring tasks easy!
 
