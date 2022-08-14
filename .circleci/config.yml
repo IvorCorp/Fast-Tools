@@ -4,7 +4,7 @@ orbs:
   win: circleci/windows@4.1.1 # The Windows orb give you everything you need to start using the Windows executor.
 
 jobs:
-  installNode: # name of your job
+  build: # name of your job
     executor: win/default # executor type
 
     steps:
@@ -12,7 +12,4 @@ jobs:
       - checkout
       - run: winget install -e --id OpenJS.NodeJS
       - run: npm install
-
-  build:
-   executor: win/default
-   - run: npm run make
+      - run: npm run make
