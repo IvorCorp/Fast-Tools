@@ -5,6 +5,6 @@
       owner: 'sebi-vscode and IvorTech',
       name: 'Fast-Tools'
     },
-    prerelease: true
+    prerelease: false
   }
 }
