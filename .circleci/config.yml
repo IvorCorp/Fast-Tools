@@ -5,11 +5,12 @@ orbs:
 
 jobs:
   build: # name of your job
+     docker:
+      - image: circleci/node:16
     executor: win/default # executor type
 
     steps:
       # Commands are run in a Windows virtual machine environment
       - checkout
-      - run: winget install -e --id OpenJS.NodeJS
       - run: npm install
       - run: npm run make
