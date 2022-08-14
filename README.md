@@ -12,7 +12,7 @@ Other tools (coming soon)
 
 # Share your idea:
 Open a issue called "Feature: name of the feature"
-Only english or spanish, or if you know how to code it the following thing: (contribution)
+Only english or spanish <br> or if you know how to code it you can do the following thing: (contribution)
 
 # Contribution
 To contribute fork the repo and  clone it
