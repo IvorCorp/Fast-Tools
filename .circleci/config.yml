@@ -12,4 +12,7 @@ jobs:
       - checkout
       - run: winget install -e --id OpenJS.NodeJS
       - run: npm install
-      - run: npm run make
+
+  build:
+   executor: win/default
+   - run: npm run make
