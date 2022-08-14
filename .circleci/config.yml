@@ -21,7 +21,7 @@ jobs:
             - ./node_modules
       - run:
           name: Generate Builds
-          command: electron-forge make --targets @electron-forge/maker-squirrel
+          command: npm run make --targets @electron-forge/maker-squirrel
 
       - store_artifacts:
           path: ~/repo/out/make
