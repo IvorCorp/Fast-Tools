@@ -10,8 +10,8 @@ jobs:
       - checkout
       - run: npm install
       - run: npm run make
-          - store_artifacts:
-          path: ~/repo/out/make
+    - store_artifacts:
+      path: ~/repo/out/make
 
 workflows:
   my-workflow:
