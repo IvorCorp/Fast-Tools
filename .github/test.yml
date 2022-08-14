@@ -1,0 +1,10 @@
+{
+  name: '@electron-forge/publisher-github',
+  config: {
+    repository: {
+      owner: 'sebi-vscode and IvorTech',
+      name: 'Fast-Tools'
+    },
+    prerelease: true
+  }
+}
