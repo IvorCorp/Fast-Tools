@@ -49,6 +49,17 @@
       "name": "@electron-forge/publisher-github",
       "config": {
         "repository": {
+          "owner": "sebi-vscode2",
+          "name": "Fast-Tools"
+        },
+        "prerelease": false,
+        "draft": true
+      }
+    },
+    {
+      "name": "@electron-forge/publisher-github",
+      "config": {
+        "repository": {
           "owner": "erikhofer",
           "name": "electron-publish-example"
         }
