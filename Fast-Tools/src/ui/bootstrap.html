@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  
+    <link rel="stylesheet" href="css/bootstrap.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +12,34 @@
 <body>
     <h1>
         Fast-Bootstrap
+        <br> 
+        CDN-Links
+        <br>
+        <br>
+      <div>
+          <div class="code">
+            <textarea id="content"></textarea>
+
+          </div>
+          <script>xd = 0</script>
+          <button class="btn btn-primary" onclick="var xd = 1">
+            <i class='bx bxs-copy'></i>
+          </button>
+      </div>
     </h1>
+   <script>
+       navigator.permissions.query({ name: "clipboard-read" }).then((result) => {
+  if (result.state == "granted" || result.state == "prompt") {
+    alert("Read access ranted!");
+  }
+});
+
+
+navigator.clipboard.writeText("").then(() => {
+  /* Resolved - text copied to clipboard */
+},() => {
+  /* Rejected - clipboard failed */
+});
+   </script>
 </body>
 </html>
