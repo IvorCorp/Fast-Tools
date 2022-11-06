@@ -1,0 +1,4 @@
+disallow: /assets/
+disallow: /games.php
+disallow: /Fast-Tools-Gui/
+disallow: /Fast-Tools-Linux/
