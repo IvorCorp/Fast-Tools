@@ -3,10 +3,10 @@ A Project for making your life easier and also making things faster.
 
 # Features:
 
-DEVELOPERS:
-A bootstrap implementer
+DEVELOPERS: <br>
+A bootstrap implementer zbr>
 A lorem ipsum implementer
 
-GAMERS:
+GAMERS: <br>
 A minecraft server creator, FastMc
 
