@@ -1,2 +1,12 @@
 # Fast-Tools 
-You can read the docs of the app on: https://fasttools.gitbook.io
+A Project for making your life easier and also making things faster.
+
+# Features:
+
+DEVELOPERS:
+A bootstrap implementer
+A lorem ipsum implementer
+
+GAMERS:
+A minecraft server creator, FastMc
+
