@@ -1,5 +1,3 @@
-<?php 
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +10,10 @@
 <body>
 	<nav class="navbar bg-light">
 <div class="container-fluid">
-<a class="navbar-brand" href="index.php">Fast-Tools</a>
-<a href="download.php"class="navbar-item">Descargar</a> 
-<a class="navbar-item" href="categories-test.php">Categorias</a>
-<a class="navbar-item" href="roadmap.php">Roadmap y Creditos</a>
+<a class="navbar-brand" href="index.html">Fast-Tools</a>
+<a href="download.html"class="navbar-item">Descargar</a> 
+<a class="navbar-item" href="categories-test.html">Categorias</a>
+<a class="navbar-item" href="roadmap.html">Roadmap y Creditos</a>
 </div>
 </nav>
 </body>
