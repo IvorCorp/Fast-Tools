@@ -1,0 +1,15 @@
+.center {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  button {
+    border: 3px;
+    border-radius: 3%;
+  }
+
+  .p {
+    font-size: 22px;
+    text-align: center;
+    margin: 16px;
+  }
